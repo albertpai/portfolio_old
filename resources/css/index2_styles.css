@@ -1,18 +1,34 @@
 p {
 	font-size: 16px;
 }
+
+/*Shift banner to right*/
 .shift-right {
 	margin-left: 315px;
 }
 
 .container-fluid {
 	padding: 0px;
+  display: inline-block;
 }
 
-.banner {
+/*.banner {
 	background-color: #5fc9ec;
 	height: 50px;
+}*/
+
+/*Banner words. Note that the h1 tags will block the effect of font-size.*/
+.banner {
+  background-color: #4d940f;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  height: 50px;
+  text-align: center;
+  line-height:50px;
 }
+
 
 .center {
     position: absolute;
@@ -36,7 +52,7 @@ img {
 .nav-side-menu {
   overflow: auto;
   font-family: verdana;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 200;
   background-color: #2e353d;
   position: fixed;
@@ -44,11 +60,12 @@ img {
   width: 300px;
   height: 100%;
   color: #e1ffff;
+  display: inline-block;
 }
 .nav-side-menu .brand {
   background-color: #23282e;
   line-height: 50px;
-  display: block;
+/*  display: inline-block;*/
   text-align: center;
   font-size: 14px;
 }
@@ -177,10 +194,4 @@ img {
 body {
   margin: 0px;
   padding: 0px;
-}
-
-
-.banner {
-	background-color: #1edda6;
-	font-size: 40x;
 }
