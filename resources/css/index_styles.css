@@ -8524,3 +8524,9 @@ img.center {
    top: 50%;
 }
 /*Put an image at the center.*/
+
+.fa {
+    color: black;
+    text-shadow: 1px 1px 1px #ccc;
+    font-size: 1.5em;
+}
