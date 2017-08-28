@@ -1,13 +1,19 @@
 <html>
   <head>
     <title>Profile</title>
-	<!-- Profile CSS downloaded from http://codeatuni.netlify.com/code-at-uni.css -->
+	<!-- CSS downloaded from http://codeatuni.netlify.com/code-at-uni.css -->
     <link rel="stylesheet" href="resources/css/index_styles.css">
     <!-- Academicons -->
     <link rel="stylesheet" type="text/css" href="resources/css/academicons.css">
 
     <!-- Font Awesome script -->
     <script src="https://use.fontawesome.com/717035669f.js"></script>
+
+    <!-- Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="resources/css/index_styles.css"> -->
 
   </head>
   <body>
@@ -34,8 +40,8 @@
               <p class="card-text">
                 Discovering new things every day.
               </p>
-<!--               <button id="infoButton" class="btn btn-primary" onClick="window.location.href='index2.html'">Show Services</button> -->
-              <button id="infoButton" class="btn btn-primary" onClick="toggleclick()">Show Services</button>
+<!--   Change button behavious to a link, use this. onClick="window.location.href='index2.html'"> -->
+              <button id="infoButton" class="btn btn-primary" onClick="toggleInfo()">Show Info</button>
             </div>
             <div class="card-footer">
               <a target="_blank" href=https://www.linkedin.com/in/albert-pai/>
@@ -55,6 +61,9 @@
               </a>
               <a target="_blank" href=https://www.ucl.ac.uk/centras/study/postgraduate-research/current-phd-students-information/albert-feng-shuo-pai>
                 <i class="fa fa-university"></i>
+              </a>
+              <a target="_blank" href=mailto:verdant.light@gmail.com?Subject=Hello%20there>
+                <i class="fa fa-envelope-o fa-lg"></i>
               </a>
             </div>
           </div>
@@ -161,7 +170,7 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="./code-at-uni.js"></script>
-    <script type="text/javascript" src="./profile.js"></script>
+    <script type="text/javascript" src="./resources/code-at-uni.js"></script>
+    <script type="text/javascript" src="./resources/profile.js"></script>
   </body>
 </html>
