@@ -736,7 +736,7 @@ pre code {
   margin-left: auto;
 /*  background-color: #f6f7f9;*/
 }
-/*Container's background-color can be changed here*/
+/*Change the background-color of container here!*/
 
 .container::after {
   display: table;
@@ -2262,10 +2262,13 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 
+/*Change the button color here!*/
 .btn-primary {
   color: #fff;
-  background-color: #0275d8;
-  border-color: #0275d8;
+/*  background-color: #0275d8;*/
+  background-color: #009988!important;
+/*  border-color: #0275d8;*/
+  border-color: #009988;
 }
 
 .btn-primary:hover {
@@ -5940,9 +5943,11 @@ a.text-danger:hover {
   background-color: #f7f7f9;
 }
 
+/*Change the color of navbar here. The hidden line means blue color.*/
 .bg-primary {
   color: #fff;
-  background-color: #0275d8;
+  /*background-color: #0275d8!important;*/
+  background-color: #009988!important;
 }
 
 a.bg-primary:focus,
@@ -8452,8 +8457,8 @@ html, body{
 
 .card-title {
   font-weight: 1.25em;
-  color:rgb(1, 117, 216); 
-} /*Change the size and color of card title*/
+  color:#006699; 
+} /*Change the size and color of card title here!*/
 
 
 .card-block small {
