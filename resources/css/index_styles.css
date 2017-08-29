@@ -734,6 +734,7 @@ pre code {
   padding-left: .9375rem;
   margin-right: auto;
   margin-left: auto;
+/*  background-color: #f6f7f9;*/
 }
 /*Container's background-color can be changed here*/
 
@@ -8415,8 +8416,10 @@ html {
   text-rendering: optimizeLegibility;
 }
 body {
-    background: #f6f7f9;  /*Change background color in here!*/
     font-family: "Open Sans", Arial, sans-serif;
+}
+html, body{
+    background-color: #f6f7f9;  /*Change background color in here or with the style tag.*/
 }
 .navbar {
   border-radius: 0;
@@ -8458,10 +8461,10 @@ body {
 }
 
 .description {
-/*  background-image: url("resourcesimg/pattern.png");*/
+/*  background-image: url("resources/img/pattern.jpg");*/
   background-repeat: repeat-x;
 }
-/*Background image does not work here for unknown reasons. Use style tage instead.*/
+/*Background image does not work for unknown reasons. Use style tage instead.*/
 
 .description a {
   margin: 0 5px;
@@ -8529,7 +8532,6 @@ img.center {
    margin-top: 140px;
    margin-left: auto;
    margin-right: auto;
-
 }
 /*Put an image at the center.*/
 
