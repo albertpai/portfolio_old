@@ -735,6 +735,7 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+/*Container's background-color can be changed here*/
 
 .container::after {
   display: table;
@@ -6355,12 +6356,14 @@ a.bg-danger:hover {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* makes the font 33% larger relative to the icon container */
+
 .fa-lg {
   font-size: 1.33333333em;
   line-height: 0.75em;
   vertical-align: -15%;
 }
+/* makes the font 33% larger relative to the icon container */
+
 .fa-2x {
   font-size: 2em;
 }
@@ -8412,7 +8415,7 @@ html {
   text-rendering: optimizeLegibility;
 }
 body {
-    background: none;
+    background: #f6f7f9;  /*Change background color in here!*/
     font-family: "Open Sans", Arial, sans-serif;
 }
 .navbar {
@@ -8445,16 +8448,20 @@ body {
 }
 
 .card-title {
-  font-weight: 300;
-}
+  font-weight: 1.25em;
+  color:rgb(1, 117, 216); 
+} /*Change the size and color of card title*/
+
 
 .card-block small {
   float: right;
 }
 
 .description {
+/*  background-image: url("resourcesimg/pattern.png");*/
   background-repeat: repeat-x;
 }
+/*Background image does not work here for unknown reasons. Use style tage instead.*/
 
 .description a {
   margin: 0 5px;
@@ -8519,9 +8526,10 @@ body {
 
 img.center {
    position: relative;
+   margin-top: 140px;
    margin-left: auto;
    margin-right: auto;
-   top: 50%;
+
 }
 /*Put an image at the center.*/
 
@@ -8529,3 +8537,4 @@ img.center {
     color: black;
     text-shadow: 1px 1px 1px #ccc;
 }*/
+
